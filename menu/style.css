@@ -1,0 +1,13 @@
+.side-panel {
+    position: absolute;
+    width: 250px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #e5e5e5;
+    transition: all .4s ease 0s;
+    transform: translateX(-100%);
+}
+.side-panel.active {
+    transform: translateX(0);
+}
