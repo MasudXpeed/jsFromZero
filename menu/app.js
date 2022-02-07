@@ -6,12 +6,7 @@ menuHandelar.addEventListener('click', function () {
     sidePanel.classList.toggle('active');
 })
 document.addEventListener('mouseup', function (e) {
-    if (e.target !== sidePanel && e.target !== menuHandelar) {
+    if (e.target !== sidePanel || e.target !== menuHandelar) {
         sidePanel.classList.remove('active');
-        console.log(e);
-
     }
 })
-
-
-
