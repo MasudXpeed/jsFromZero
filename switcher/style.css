@@ -1,0 +1,17 @@
+:root {
+
+    --primaryColor: #f00;
+    --secondaryCikir: #0f0;
+    --bodyBackground: #fff;
+}
+[data-theme="dark"] {
+    --primaryColor: #ffffff;
+    --bodyBackground: #000;
+}
+h1 {
+    color: var(--primaryColor);
+}
+
+body {
+    background-color: var(--bodyBackground);
+}
